@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E4940C019CDD1E6009810D7 /* gameScene 1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E4940BF19CDD1E6009810D7 /* gameScene 1.sks */; };
+		6E5D9E2519D470B1000A76A2 /* gameScene 2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2419D470B1000A76A2 /* gameScene 2.sks */; };
+		6E5D9E2719D474B7000A76A2 /* gameScene 3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2619D474B7000A76A2 /* gameScene 3.sks */; };
+		6E5D9E2919D474C9000A76A2 /* gameScene 4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2819D474C9000A76A2 /* gameScene 4.sks */; };
+		6E5D9E2B19D474DB000A76A2 /* gameScene 5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2A19D474DB000A76A2 /* gameScene 5.sks */; };
+		6E5D9E2D19D474EF000A76A2 /* gameScene 6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2C19D474EF000A76A2 /* gameScene 6.sks */; };
+		6E5D9E2F19D474FE000A76A2 /* gameScene 7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9E2E19D474FE000A76A2 /* gameScene 7.sks */; };
+		6E73E9B819CDEC1500CB68D8 /* DeBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73E9B719CDEC1500CB68D8 /* DeBug.swift */; };
+		6E9CC67119D15B5D00569E3B /* 8-Bit Theme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CC66D19D15B5C00569E3B /* 8-Bit Theme.wav */; };
+		6E9CC67219D15B5D00569E3B /* Video Game Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CC66E19D15B5C00569E3B /* Video Game Win.mp3 */; };
+		6E9CC67319D15B5D00569E3B /* Game Over 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CC66F19D15B5C00569E3B /* Game Over 2.mp3 */; };
+		6E9CC67419D15B5D00569E3B /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CC67019D15B5D00569E3B /* jump.wav */; };
+		6EB30D7719C2151500616C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D7619C2151500616C12 /* AppDelegate.swift */; };
+		6EB30D7B19C2151500616C12 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D7A19C2151500616C12 /* GameScene.swift */; };
+		6EB30D7D19C2151500616C12 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D7C19C2151500616C12 /* GameViewController.swift */; };
+		6EB30D8019C2151500616C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB30D7E19C2151500616C12 /* Main.storyboard */; };
+		6EB30D8219C2151500616C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB30D8119C2151500616C12 /* Images.xcassets */; };
+		6EB30D8E19C2151500616C12 /* ManiacMarblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D8D19C2151500616C12 /* ManiacMarblesTests.swift */; };
+		6EB30D9819C49D4700616C12 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D9719C49D4700616C12 /* MainMenu.swift */; };
+		6EB30D9A19C4B38600616C12 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6EB30D9919C4B38600616C12 /* MainMenu.sks */; };
+		6EB30D9C19C4DAD200616C12 /* LevelSelect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6EB30D9B19C4DAD200616C12 /* LevelSelect.sks */; };
+		6EB30D9E19C4DAEE00616C12 /* LevelSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB30D9D19C4DAEE00616C12 /* LevelSelect.swift */; };
+		6EDFE0B119D1FCBC00D4FF17 /* MarbleSelect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6EDFE0B019D1FCBC00D4FF17 /* MarbleSelect.sks */; };
+		6EDFE0B519D1FE8600D4FF17 /* MarbleSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDFE0B419D1FE8600D4FF17 /* MarbleSelect.swift */; };
+		6EF3416C19CB243F00856423 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF3416A19CB22D500856423 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB30D8819C2151500616C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB30D6919C2151500616C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB30D7019C2151500616C12;
+			remoteInfo = ManiacMarbles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E4940BF19CDD1E6009810D7 /* gameScene 1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 1.sks"; sourceTree = "<group>"; };
+		6E5D9E2419D470B1000A76A2 /* gameScene 2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 2.sks"; sourceTree = "<group>"; };
+		6E5D9E2619D474B7000A76A2 /* gameScene 3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 3.sks"; sourceTree = "<group>"; };
+		6E5D9E2819D474C9000A76A2 /* gameScene 4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 4.sks"; sourceTree = "<group>"; };
+		6E5D9E2A19D474DB000A76A2 /* gameScene 5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 5.sks"; sourceTree = "<group>"; };
+		6E5D9E2C19D474EF000A76A2 /* gameScene 6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 6.sks"; sourceTree = "<group>"; };
+		6E5D9E2E19D474FE000A76A2 /* gameScene 7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "gameScene 7.sks"; sourceTree = "<group>"; };
+		6E73E9B719CDEC1500CB68D8 /* DeBug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeBug.swift; sourceTree = "<group>"; };
+		6E9CC66D19D15B5C00569E3B /* 8-Bit Theme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "8-Bit Theme.wav"; sourceTree = "<group>"; };
+		6E9CC66E19D15B5C00569E3B /* Video Game Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Video Game Win.mp3"; sourceTree = "<group>"; };
+		6E9CC66F19D15B5C00569E3B /* Game Over 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Game Over 2.mp3"; sourceTree = "<group>"; };
+		6E9CC67019D15B5D00569E3B /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		6EB30D7119C2151500616C12 /* ManiacMarbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManiacMarbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB30D7519C2151500616C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB30D7619C2151500616C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB30D7A19C2151500616C12 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6EB30D7C19C2151500616C12 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6EB30D7F19C2151500616C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB30D8119C2151500616C12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EB30D8719C2151500616C12 /* ManiacMarblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManiacMarblesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB30D8C19C2151500616C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB30D8D19C2151500616C12 /* ManiacMarblesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManiacMarblesTests.swift; sourceTree = "<group>"; };
+		6EB30D9719C49D4700616C12 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenu.swift; path = ../MainMenu.swift; sourceTree = "<group>"; };
+		6EB30D9919C4B38600616C12 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		6EB30D9B19C4DAD200616C12 /* LevelSelect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelSelect.sks; sourceTree = "<group>"; };
+		6EB30D9D19C4DAEE00616C12 /* LevelSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelect.swift; sourceTree = "<group>"; };
+		6EDFE0B019D1FCBC00D4FF17 /* MarbleSelect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MarbleSelect.sks; sourceTree = "<group>"; };
+		6EDFE0B419D1FE8600D4FF17 /* MarbleSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarbleSelect.swift; path = ../MarbleSelect.swift; sourceTree = "<group>"; };
+		6EF3416A19CB22D500856423 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB30D6E19C2151500616C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF3416C19CB243F00856423 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB30D8419C2151500616C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB30D6819C2151500616C12 = {
+			isa = PBXGroup;
+			children = (
+				6EF3416A19CB22D500856423 /* CoreMotion.framework */,
+				6EB30D7319C2151500616C12 /* ManiacMarbles */,
+				6EB30D8A19C2151500616C12 /* ManiacMarblesTests */,
+				6EB30D7219C2151500616C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB30D7219C2151500616C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB30D7119C2151500616C12 /* ManiacMarbles.app */,
+				6EB30D8719C2151500616C12 /* ManiacMarblesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB30D7319C2151500616C12 /* ManiacMarbles */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD33CC19D26C8200BCB3CF /* audio */,
+				6EB30D9719C49D4700616C12 /* MainMenu.swift */,
+				6EB30D9919C4B38600616C12 /* MainMenu.sks */,
+				6EDFE0B419D1FE8600D4FF17 /* MarbleSelect.swift */,
+				6EDFE0B019D1FCBC00D4FF17 /* MarbleSelect.sks */,
+				6EB30D9D19C4DAEE00616C12 /* LevelSelect.swift */,
+				6EB30D9B19C4DAD200616C12 /* LevelSelect.sks */,
+				6EB30D7619C2151500616C12 /* AppDelegate.swift */,
+				6EB30D7A19C2151500616C12 /* GameScene.swift */,
+				6E4940BF19CDD1E6009810D7 /* gameScene 1.sks */,
+				6E5D9E2419D470B1000A76A2 /* gameScene 2.sks */,
+				6E5D9E2619D474B7000A76A2 /* gameScene 3.sks */,
+				6E5D9E2819D474C9000A76A2 /* gameScene 4.sks */,
+				6E5D9E2A19D474DB000A76A2 /* gameScene 5.sks */,
+				6E5D9E2C19D474EF000A76A2 /* gameScene 6.sks */,
+				6E5D9E2E19D474FE000A76A2 /* gameScene 7.sks */,
+				6EB30D7C19C2151500616C12 /* GameViewController.swift */,
+				6EB30D7E19C2151500616C12 /* Main.storyboard */,
+				6EB30D8119C2151500616C12 /* Images.xcassets */,
+				6EB30D7419C2151500616C12 /* Supporting Files */,
+				6E73E9B719CDEC1500CB68D8 /* DeBug.swift */,
+			);
+			path = ManiacMarbles;
+			sourceTree = "<group>";
+		};
+		6EB30D7419C2151500616C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB30D7519C2151500616C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB30D8A19C2151500616C12 /* ManiacMarblesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB30D8D19C2151500616C12 /* ManiacMarblesTests.swift */,
+				6EB30D8B19C2151500616C12 /* Supporting Files */,
+			);
+			path = ManiacMarblesTests;
+			sourceTree = "<group>";
+		};
+		6EB30D8B19C2151500616C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB30D8C19C2151500616C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECD33CC19D26C8200BCB3CF /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				6E9CC67019D15B5D00569E3B /* jump.wav */,
+				6E9CC66F19D15B5C00569E3B /* Game Over 2.mp3 */,
+				6E9CC66D19D15B5C00569E3B /* 8-Bit Theme.wav */,
+				6E9CC66E19D15B5C00569E3B /* Video Game Win.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB30D7019C2151500616C12 /* ManiacMarbles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB30D9119C2151500616C12 /* Build configuration list for PBXNativeTarget "ManiacMarbles" */;
+			buildPhases = (
+				6EB30D6D19C2151500616C12 /* Sources */,
+				6EB30D6E19C2151500616C12 /* Frameworks */,
+				6EB30D6F19C2151500616C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManiacMarbles;
+			productName = ManiacMarbles;
+			productReference = 6EB30D7119C2151500616C12 /* ManiacMarbles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB30D8619C2151500616C12 /* ManiacMarblesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB30D9419C2151500616C12 /* Build configuration list for PBXNativeTarget "ManiacMarblesTests" */;
+			buildPhases = (
+				6EB30D8319C2151500616C12 /* Sources */,
+				6EB30D8419C2151500616C12 /* Frameworks */,
+				6EB30D8519C2151500616C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB30D8919C2151500616C12 /* PBXTargetDependency */,
+			);
+			name = ManiacMarblesTests;
+			productName = ManiacMarblesTests;
+			productReference = 6EB30D8719C2151500616C12 /* ManiacMarblesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB30D6919C2151500616C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Hoyt Dingus";
+				TargetAttributes = {
+					6EB30D7019C2151500616C12 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6EB30D8619C2151500616C12 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6EB30D7019C2151500616C12;
+					};
+				};
+			};
+			buildConfigurationList = 6EB30D6C19C2151500616C12 /* Build configuration list for PBXProject "ManiacMarbles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB30D6819C2151500616C12;
+			productRefGroup = 6EB30D7219C2151500616C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB30D7019C2151500616C12 /* ManiacMarbles */,
+				6EB30D8619C2151500616C12 /* ManiacMarblesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB30D6F19C2151500616C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D9E2519D470B1000A76A2 /* gameScene 2.sks in Resources */,
+				6E4940C019CDD1E6009810D7 /* gameScene 1.sks in Resources */,
+				6E5D9E2B19D474DB000A76A2 /* gameScene 5.sks in Resources */,
+				6EB30D8219C2151500616C12 /* Images.xcassets in Resources */,
+				6EDFE0B119D1FCBC00D4FF17 /* MarbleSelect.sks in Resources */,
+				6EB30D9C19C4DAD200616C12 /* LevelSelect.sks in Resources */,
+				6EB30D9A19C4B38600616C12 /* MainMenu.sks in Resources */,
+				6E9CC67219D15B5D00569E3B /* Video Game Win.mp3 in Resources */,
+				6E5D9E2719D474B7000A76A2 /* gameScene 3.sks in Resources */,
+				6E5D9E2F19D474FE000A76A2 /* gameScene 7.sks in Resources */,
+				6E9CC67319D15B5D00569E3B /* Game Over 2.mp3 in Resources */,
+				6E9CC67419D15B5D00569E3B /* jump.wav in Resources */,
+				6E5D9E2D19D474EF000A76A2 /* gameScene 6.sks in Resources */,
+				6E9CC67119D15B5D00569E3B /* 8-Bit Theme.wav in Resources */,
+				6E5D9E2919D474C9000A76A2 /* gameScene 4.sks in Resources */,
+				6EB30D8019C2151500616C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB30D8519C2151500616C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB30D6D19C2151500616C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB30D7B19C2151500616C12 /* GameScene.swift in Sources */,
+				6E73E9B819CDEC1500CB68D8 /* DeBug.swift in Sources */,
+				6EB30D7D19C2151500616C12 /* GameViewController.swift in Sources */,
+				6EB30D9E19C4DAEE00616C12 /* LevelSelect.swift in Sources */,
+				6EB30D7719C2151500616C12 /* AppDelegate.swift in Sources */,
+				6EB30D9819C49D4700616C12 /* MainMenu.swift in Sources */,
+				6EDFE0B519D1FE8600D4FF17 /* MarbleSelect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB30D8319C2151500616C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB30D8E19C2151500616C12 /* ManiacMarblesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB30D8919C2151500616C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB30D7019C2151500616C12 /* ManiacMarbles */;
+			targetProxy = 6EB30D8819C2151500616C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB30D7E19C2151500616C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB30D7F19C2151500616C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB30D8F19C2151500616C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB30D9019C2151500616C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB30D9219C2151500616C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ManiacMarbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7BCE2359-1424-40BE-94D0-B82D6F1B014A";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB30D9319C2151500616C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ManiacMarbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7BCE2359-1424-40BE-94D0-B82D6F1B014A";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EB30D9519C2151500616C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ManiacMarblesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManiacMarbles.app/ManiacMarbles";
+			};
+			name = Debug;
+		};
+		6EB30D9619C2151500616C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ManiacMarblesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManiacMarbles.app/ManiacMarbles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB30D6C19C2151500616C12 /* Build configuration list for PBXProject "ManiacMarbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB30D8F19C2151500616C12 /* Debug */,
+				6EB30D9019C2151500616C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB30D9119C2151500616C12 /* Build configuration list for PBXNativeTarget "ManiacMarbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB30D9219C2151500616C12 /* Debug */,
+				6EB30D9319C2151500616C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB30D9419C2151500616C12 /* Build configuration list for PBXNativeTarget "ManiacMarblesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB30D9519C2151500616C12 /* Debug */,
+				6EB30D9619C2151500616C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB30D6919C2151500616C12 /* Project object */;
+}
